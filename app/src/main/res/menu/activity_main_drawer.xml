@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/imagen1Fragment"
+            android:icon="@drawable/ic_baseline_airplay_24"
+            android:title="imagen1" />
+        <item
+            android:id="@+id/imagen2Fragment"
+            android:icon="@drawable/ic_baseline_card_travel_24"
+            android:title="imagen2" />
+        <item
+            android:id="@+id/imagen3Fragment"
+            android:icon="@drawable/ic_baseline_time_to_leave_24"
+            android:title="imagen3" />
+        <item
+            android:id="@+id/operacionesFragment"
+            android:icon="@drawable/ic_baseline_time_to_leave_24"
+            android:title="Operaciones" />
+    </group>
+</menu>
